@@ -38,4 +38,5 @@ public class PlateauCoordinate {
     public PlateauCoordinate neighbour(RoverOrientation direction) {
         return new PlateauCoordinate(x + direction.getXshift(), y + direction.getYshift());
     }
+
 }

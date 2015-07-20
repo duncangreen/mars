@@ -22,7 +22,6 @@ public class AcceptanceTest {
         rover1.moveForward();
 
         MarsRover rover2 = new MarsRover(plateau, new PlateauCoordinate(3, 3), RoverOrientation.EAST);
-//        MMRMMRMRRM
         rover2.moveForward();
         rover2.moveForward();
         rover2.spinRight();

@@ -28,4 +28,9 @@ public class MarsRover {
     public RoverOrientation getOrientation() {
         return orientation;
     }
+
+    @Override
+    public String toString() {
+        return String.format("position: %s, orientation:%s", position, orientation);
+    }
 }
