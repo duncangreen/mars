@@ -12,7 +12,7 @@ public class MarsRover {
     }
 
     public void spinLeft() {
-        heading = Heading.left(heading);
+        heading = heading.adjustLeft();
     }
 
     public void moveForward() throws HazardousMoveException {
@@ -27,7 +27,7 @@ public class MarsRover {
     }
 
     public void spinRight() {
-        heading = Heading.right(heading);
+        heading = heading.adjustRight();
     }
 
     public PlateauCoordinate getPosition() {

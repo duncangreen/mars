@@ -8,26 +8,26 @@ public class Heading {
     public static final Heading EAST = new Heading(1, 0);
     public static final Heading WEST = new Heading(-1, 0);
 
-    private final int xShift;
+    private final int horizontal;
 
-    private final int yShift;
+    private final int vertical;
 
-    private Heading(int xShift, int yShift) {
-        this.xShift = xShift;
-        this.yShift = yShift;
+    private Heading(int horizontal, int vertical) {
+        this.horizontal = horizontal;
+        this.vertical = vertical;
     }
 
-    public static Heading left(Heading initial) {
-        return new Heading(initial.yShift * -1, initial.xShift);
+    public Heading adjustLeft() {
+        return new Heading(vertical * -1, horizontal);
     }
 
-    public static Heading right(Heading initial) {
-        return new Heading(initial.yShift, initial.xShift * -1);
+    public Heading adjustRight() {
+        return new Heading(vertical, horizontal * -1);
     }
 
     @Override
     public String toString() {
-        return String.format("(%d, %d)", xShift, yShift);
+        return String.format("(%d, %d)", horizontal, vertical);
     }
 
     @Override
@@ -41,15 +41,15 @@ public class Heading {
             return false;
         }
         final Heading other = (Heading) obj;
-        return Objects.equals(this.xShift, other.xShift) && Objects.equals(this.yShift, other.yShift);
+        return Objects.equals(this.horizontal, other.horizontal) && Objects.equals(this.vertical, other.vertical);
     }
 
     public int getYshift() {
-        return yShift;
+        return vertical;
     }
 
     public int getXshift() {
-        return xShift;
+        return horizontal;
     }
 
 }
