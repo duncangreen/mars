@@ -8,9 +8,22 @@ public class MarsRoverTest {
 
     @Test
     public void initialPositionAndOrientation() {
-        MarsRover rover = new MarsRover(new MarsPlateau(new PlateauCoordinate(5, 5)), new PlateauCoordinate(1, 1), RoverOrientation.NORTH);
+        PlateauCoordinate initialPosition = new PlateauCoordinate(1, 1);
+        RoverOrientation initialOrientation = RoverOrientation.NORTH;
+        MarsRover rover = new MarsRover(new MarsPlateau(new PlateauCoordinate(5, 5)), initialPosition, initialOrientation);
 
-        assertThat(rover.getPosition()).isEqualTo(new PlateauCoordinate(1, 1));
-        assertThat(rover.getOrientation()).isEqualTo(RoverOrientation.NORTH);
+        assertThat(rover.getPosition()).isEqualTo(initialPosition);
+        assertThat(rover.getOrientation()).isEqualTo(initialOrientation);
+    }
+
+    @Test
+    public void spinLeft() {
+        PlateauCoordinate initialPosition = new PlateauCoordinate(1, 1);
+        MarsRover rover = new MarsRover(new MarsPlateau(new PlateauCoordinate(5, 5)), initialPosition, RoverOrientation.NORTH);
+
+        rover.spinLeft();
+
+        assertThat(rover.getPosition()).isEqualTo(initialPosition);
+        assertThat(rover.getOrientation()).isEqualTo(RoverOrientation.EAST);
     }
 }

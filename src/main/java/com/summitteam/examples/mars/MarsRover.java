@@ -2,7 +2,7 @@ package com.summitteam.examples.mars;
 
 public class MarsRover {
     private final PlateauCoordinate position;
-    private final RoverOrientation orientation;
+    private RoverOrientation orientation;
 
     public MarsRover(MarsPlateau plateau, PlateauCoordinate initialPosition, RoverOrientation orientation) {
         this.position = initialPosition;
@@ -10,7 +10,7 @@ public class MarsRover {
     }
 
     public void spinLeft() {
-
+        this.orientation = RoverOrientation.left(this.orientation);
     }
 
     public void moveForward() {
