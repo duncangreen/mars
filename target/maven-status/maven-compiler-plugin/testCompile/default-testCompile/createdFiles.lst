@@ -3,3 +3,4 @@ com/summitteam/examples/mars/SampleCoordinates.class
 com/summitteam/examples/mars/MarsRoverTest.class
 com/summitteam/examples/mars/HeadingTest.class
 com/summitteam/examples/mars/PlateauCoordinateTest.class
+com/summitteam/examples/mars/MarsPlateauTest.class

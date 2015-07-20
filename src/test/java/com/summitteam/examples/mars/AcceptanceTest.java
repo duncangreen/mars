@@ -7,8 +7,8 @@ import static org.fest.assertions.Assertions.assertThat;
 public class AcceptanceTest {
 
     @Test
-    public void moveTwoRovers() {
-        MarsPlateau plateau = new MarsPlateau(new PlateauCoordinate(5, 5));
+    public void moveTwoRovers() throws HazardousMoveException {
+        MarsPlateau plateau = new MarsPlateau(5, 5);
 
         MarsRover rover1 = new MarsRover(plateau, new PlateauCoordinate(1, 2), Heading.NORTH);
         rover1.spinLeft();

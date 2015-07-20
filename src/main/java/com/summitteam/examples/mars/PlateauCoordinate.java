@@ -39,4 +39,11 @@ public class PlateauCoordinate {
         return new PlateauCoordinate(x + direction.getXshift(), y + direction.getYshift());
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
 }
