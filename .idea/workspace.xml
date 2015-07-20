@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf1d86d4-d6db-4b08-91eb-95a26c11830b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" />
     </list>
@@ -47,8 +48,8 @@
       <file leaf-file-name="AcceptanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="850">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="833">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84474885" vertical-offset="91" max-vertical-offset="782">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1224">
+              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +72,8 @@
       <file leaf-file-name="PlateauCoordinateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="799">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="935">
+              <caret line="46" column="114" selection-start-line="46" selection-start-column="114" selection-end-line="46" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +84,15 @@
       <file leaf-file-name="RoverOrientation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="884">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
               <folding>
-                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1501#1502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverOrientationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RoverOrientationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.655303" vertical-offset="11" max-vertical-offset="680">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1085#1086#0" expanded="true" />
@@ -124,17 +130,11 @@
       <file leaf-file-name="MarsRover.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="629">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding>
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,11 +143,13 @@
       <file leaf-file-name="PlateauCoordinate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="26" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#650#651#0" expanded="true" />
                 <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,13 +176,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsPlateau.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" />
       </list>
     </option>
   </component>
@@ -309,17 +311,19 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.summitteam.examples.mars.MarsRoverTest" />
       <recent name="com.summitteam.examples.mars.RoverOrientation" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.summitteam.examples.mars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTest">
-    <configuration default="false" name="MarsRoverTest.initialPositionAndOrientation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.summitteam.examples.mars in mars">
+    <configuration default="false" name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.summitteam.examples.mars.*" />
@@ -331,7 +335,35 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
       <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.MarsRoverTest" />
-      <option name="METHOD_NAME" value="initialPositionAndOrientation" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MarsRoverTest.moveInACircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.summitteam.examples.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
+      <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.MarsRoverTest" />
+      <option name="METHOD_NAME" value="moveInACircle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -375,7 +407,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AcceptanceTest.moveTwoRovers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.summitteam.examples.mars.*" />
@@ -386,64 +418,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
-      <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.MarsRoverTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverOrientationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.summitteam.examples.mars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mars" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
-      <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.RoverOrientationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverOrientationTest.left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.summitteam.examples.mars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mars" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
-      <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.RoverOrientationTest" />
-      <option name="METHOD_NAME" value="left" />
+      <option name="MAIN_CLASS_NAME" value="com.summitteam.examples.mars.AcceptanceTest" />
+      <option name="METHOD_NAME" value="moveTwoRovers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -460,7 +436,37 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.summitteam.examples.mars in mars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.summitteam.examples.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.summitteam.examples.mars" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -925,19 +931,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest.initialPositionAndOrientation" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlateauCoordinateTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverOrientationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverOrientationTest.left" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTest.moveInACircle" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlateauCoordinateTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTest.moveTwoRovers" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.com.summitteam.examples.mars in mars" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverOrientationTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverOrientationTest.left" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest.initialPositionAndOrientation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PlateauCoordinateTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.summitteam.examples.mars in mars" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest.moveTwoRovers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PlateauCoordinateTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MarsRoverTest.moveInACircle" />
       </list>
     </recent_temporary>
   </component>
@@ -961,12 +967,12 @@
       <option name="number" value="Default" />
       <updated>1437381479225</updated>
       <workItem from="1437381480737" duration="4753000" />
-      <workItem from="1437395688767" duration="1491000" />
+      <workItem from="1437395688767" duration="2427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6244000" />
+    <option name="totallyTimeSpent" value="7180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="6" />
@@ -993,7 +999,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18559219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19506463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.346651" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1019,7 +1025,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1075,7 +1089,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="527">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1099,14 +1118,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="629">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1118,6 +1131,8 @@
           <folding>
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1146,33 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="850">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="629">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="38862">
@@ -1186,19 +1174,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="26" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="833">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1224">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="799">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="935">
+          <caret line="46" column="114" selection-start-line="46" selection-start-column="114" selection-end-line="46" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1207,34 +1243,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.655303" vertical-offset="11" max-vertical-offset="680">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1085#1086#0" expanded="true" />
             <element signature="e#1169#1170#0" expanded="true" />
             <element signature="e#1211#1212#0" expanded="true" />
             <element signature="e#1298#1299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="884">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#926#927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84474885" vertical-offset="91" max-vertical-offset="782">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

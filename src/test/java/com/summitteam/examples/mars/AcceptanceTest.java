@@ -1,6 +1,5 @@
 package com.summitteam.examples.mars;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
@@ -8,7 +7,6 @@ import static org.fest.assertions.Assertions.assertThat;
 public class AcceptanceTest {
 
     @Test
-    @Ignore("Not yet implemented")
     public void moveTwoRovers() {
         MarsPlateau plateau = new MarsPlateau(new PlateauCoordinate(5, 5));
 
@@ -24,6 +22,7 @@ public class AcceptanceTest {
         rover1.moveForward();
 
         MarsRover rover2 = new MarsRover(plateau, new PlateauCoordinate(3, 3), RoverOrientation.EAST);
+//        MMRMMRMRRM
         rover2.moveForward();
         rover2.moveForward();
         rover2.spinRight();

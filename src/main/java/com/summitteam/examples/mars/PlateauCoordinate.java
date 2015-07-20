@@ -29,4 +29,13 @@ public class PlateauCoordinate {
     public int hashCode() {
         return Objects.hash(x, y);
     }
+
+    @Override
+    public String toString() {
+        return String.format("(%d, %d)", x, y);
+    }
+
+    public PlateauCoordinate neighbour(RoverOrientation direction) {
+        return new PlateauCoordinate(x + direction.getXshift(), y + direction.getYshift());
+    }
 }
