@@ -32,12 +32,10 @@ public class Heading {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null)
-        {
+        if (obj == null) {
             return false;
         }
-        if (getClass() != obj.getClass())
-        {
+        if (getClass() != obj.getClass()) {
             return false;
         }
         final Heading other = (Heading) obj;
