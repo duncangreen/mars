@@ -34,7 +34,7 @@ public class PlateauCoordinate {
     }
 
     public PlateauCoordinate neighbour(Heading direction) {
-        return new PlateauCoordinate(x + direction.getXshift(), y + direction.getYshift());
+        return new PlateauCoordinate(x + direction.getHorizonal(), y + direction.getVertical());
     }
 
     public int getX() {

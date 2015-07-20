@@ -42,11 +42,11 @@ public class Heading {
         return Objects.equals(this.horizontal, other.horizontal) && Objects.equals(this.vertical, other.vertical);
     }
 
-    public int getYshift() {
+    public int getVertical() {
         return vertical;
     }
 
-    public int getXshift() {
+    public int getHorizonal() {
         return horizontal;
     }
 
