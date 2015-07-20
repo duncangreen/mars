@@ -10,7 +10,7 @@ public class MarsRoverTest {
     private final MarsPlateau plateau = new MarsPlateau(5, 5);
 
     @Test
-    public void initialPositionAndHeading() {
+    public void initialPositionAndHeading() throws HazardousMoveException {
         MarsRover rover = new MarsRover(plateau, ORIGIN, Heading.NORTH);
 
         assertThat(rover.getPosition()).isEqualTo(ORIGIN);
@@ -18,7 +18,7 @@ public class MarsRoverTest {
     }
 
     @Test
-    public void spinLeft() {
+    public void spinLeft() throws HazardousMoveException {
         MarsRover rover = new MarsRover(plateau, ORIGIN, Heading.NORTH);
 
         rover.spinLeft();
@@ -28,7 +28,7 @@ public class MarsRoverTest {
     }
 
     @Test
-    public void spinRight() {
+    public void spinRight() throws HazardousMoveException {
         MarsRover rover = new MarsRover(plateau, ORIGIN, Heading.NORTH);
 
         rover.spinRight();
@@ -70,5 +70,10 @@ public class MarsRoverTest {
         MarsRover rover = new MarsRover(new MarsPlateau(0, 0), ORIGIN, Heading.NORTH);
 
         rover.moveForward();
+    }
+
+    @Test(expected = HazardousMoveException.class)
+    public void attemptToPlaceRoverOutsidePlateau() throws HazardousMoveException {
+        new MarsRover(new MarsPlateau(1, 10), new PlateauCoordinate(1, 11), Heading.EAST);
     }
 }

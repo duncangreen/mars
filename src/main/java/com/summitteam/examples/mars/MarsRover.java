@@ -5,9 +5,9 @@ public class MarsRover {
     private PlateauCoordinate position;
     private Heading heading;
 
-    public MarsRover(MarsPlateau plateau, PlateauCoordinate initialPosition, Heading initialHeading) {
+    public MarsRover(MarsPlateau plateau, PlateauCoordinate initialPosition, Heading initialHeading) throws HazardousMoveException {
         this.plateau = plateau;
-        position = initialPosition;
+        setPosition(initialPosition);
         heading = initialHeading;
     }
 
@@ -16,7 +16,10 @@ public class MarsRover {
     }
 
     public void moveForward() throws HazardousMoveException {
-        PlateauCoordinate newPosition = position.neighbour(heading);
+        setPosition(position.neighbour(heading));
+    }
+
+    private void setPosition(PlateauCoordinate newPosition) throws HazardousMoveException {
         if (!plateau.contains(newPosition)) {
             throw new HazardousMoveException();
         }
