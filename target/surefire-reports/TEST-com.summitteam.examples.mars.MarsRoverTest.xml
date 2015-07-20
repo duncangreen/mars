@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="spinRight" time="0"/>
   <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="spinLeft" time="0"/>
+  <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="initialPositionAndHeading" time="0"/>
   <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="moveInACircle" time="0"/>
   <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="moveForward" time="0"/>
-  <testcase classname="com.summitteam.examples.mars.MarsRoverTest" name="initialPositionAndOrientation" time="0"/>
 </testsuite>

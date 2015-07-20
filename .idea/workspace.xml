@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf1d86d4-d6db-4b08-91eb-95a26c11830b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/HeadingTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/Heading.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" afterPath="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" />
     </list>
     <ignored path="mars.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AcceptanceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AcceptanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3244275" vertical-offset="221" max-vertical-offset="816">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1224">
-              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="23" max-vertical-offset="1224">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="935">
-              <caret line="46" column="114" selection-start-line="46" selection-start-column="114" selection-end-line="46" selection-end-column="114" />
+              <caret line="46" column="105" selection-start-line="46" selection-start-column="105" selection-end-line="46" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,18 +82,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverOrientation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
+      <file leaf-file-name="Heading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/Heading.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,17 +116,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverOrientationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java">
+      <file leaf-file-name="HeadingTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/HeadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="680">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,12 +136,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
               <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,13 +183,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsPlateau.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/PlateauCoordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/Heading.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java" />
       </list>
     </option>
   </component>
@@ -965,16 +975,16 @@
       <option name="number" value="Default" />
       <updated>1437381479225</updated>
       <workItem from="1437381480737" duration="4753000" />
-      <workItem from="1437395688767" duration="2646000" />
+      <workItem from="1437395688767" duration="2754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7399000" />
+    <option name="totallyTimeSpent" value="7507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -982,9 +992,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35135135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35135135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1001,7 +1012,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1082,31 +1092,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/Heading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="527">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/HeadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="510">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,10 +1130,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="629">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1172,36 +1186,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1224">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/PlateauCoordinateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="935">
-          <caret line="46" column="114" selection-start-line="46" selection-start-column="114" selection-end-line="46" selection-end-column="114" />
+          <caret line="46" column="105" selection-start-line="46" selection-start-column="105" selection-end-line="46" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/RoverOrientationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/HeadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="680">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1219,17 +1223,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/RoverOrientation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/Heading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1237,20 +1255,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/summitteam/examples/mars/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
           <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/AcceptanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/summitteam/examples/mars/MarsRoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3244275" vertical-offset="221" max-vertical-offset="816">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="23" max-vertical-offset="1224">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

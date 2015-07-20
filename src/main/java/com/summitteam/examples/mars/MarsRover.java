@@ -2,35 +2,35 @@ package com.summitteam.examples.mars;
 
 public class MarsRover {
     private PlateauCoordinate position;
-    private RoverOrientation orientation;
+    private Heading heading;
 
-    public MarsRover(MarsPlateau plateau, PlateauCoordinate initialPosition, RoverOrientation initialOrientation) {
+    public MarsRover(MarsPlateau plateau, PlateauCoordinate initialPosition, Heading initialHeading) {
         position = initialPosition;
-        orientation = initialOrientation;
+        heading = initialHeading;
     }
 
     public void spinLeft() {
-        orientation = RoverOrientation.left(orientation);
+        heading = Heading.left(heading);
     }
 
     public void moveForward() {
-        position = position.neighbour(orientation);
+        position = position.neighbour(heading);
     }
 
     public void spinRight() {
-        orientation = RoverOrientation.right(orientation);
+        heading = Heading.right(heading);
     }
 
     public PlateauCoordinate getPosition() {
         return position;
     }
 
-    public RoverOrientation getOrientation() {
-        return orientation;
+    public Heading getHeading() {
+        return heading;
     }
 
     @Override
     public String toString() {
-        return String.format("position: %s, orientation:%s", position, orientation);
+        return String.format("position: %s, heading:%s", position, heading);
     }
 }

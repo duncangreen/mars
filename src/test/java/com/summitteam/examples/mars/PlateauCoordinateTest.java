@@ -41,9 +41,9 @@ public class PlateauCoordinateTest {
 
     @Test
     public void neighbour() {
-        assertThat(new PlateauCoordinate(0, 0).neighbour(RoverOrientation.NORTH)).isEqualTo(new PlateauCoordinate(0, 1));
-        assertThat(new PlateauCoordinate(0, 0).neighbour(RoverOrientation.EAST)).isEqualTo(new PlateauCoordinate(1, 0));
-        assertThat(new PlateauCoordinate(0, 0).neighbour(RoverOrientation.SOUTH)).isEqualTo(new PlateauCoordinate(0, -1));
-        assertThat(new PlateauCoordinate(0, 0).neighbour(RoverOrientation.WEST)).isEqualTo(new PlateauCoordinate(-1, 0));
+        assertThat(new PlateauCoordinate(0, 0).neighbour(Heading.NORTH)).isEqualTo(new PlateauCoordinate(0, 1));
+        assertThat(new PlateauCoordinate(0, 0).neighbour(Heading.EAST)).isEqualTo(new PlateauCoordinate(1, 0));
+        assertThat(new PlateauCoordinate(0, 0).neighbour(Heading.SOUTH)).isEqualTo(new PlateauCoordinate(0, -1));
+        assertThat(new PlateauCoordinate(0, 0).neighbour(Heading.WEST)).isEqualTo(new PlateauCoordinate(-1, 0));
     }
 }

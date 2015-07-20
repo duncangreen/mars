@@ -2,27 +2,27 @@ package com.summitteam.examples.mars;
 
 import java.util.Objects;
 
-public class RoverOrientation {
-    public static final RoverOrientation NORTH = new RoverOrientation(0, 1);
-    public static final RoverOrientation SOUTH = new RoverOrientation(0, -1);
-    public static final RoverOrientation EAST = new RoverOrientation(1, 0);
-    public static final RoverOrientation WEST = new RoverOrientation(-1, 0);
+public class Heading {
+    public static final Heading NORTH = new Heading(0, 1);
+    public static final Heading SOUTH = new Heading(0, -1);
+    public static final Heading EAST = new Heading(1, 0);
+    public static final Heading WEST = new Heading(-1, 0);
 
     private final int xShift;
 
     private final int yShift;
 
-    private RoverOrientation(int xShift, int yShift) {
+    private Heading(int xShift, int yShift) {
         this.xShift = xShift;
         this.yShift = yShift;
     }
 
-    public static RoverOrientation left(RoverOrientation initial) {
-        return new RoverOrientation(initial.yShift * -1, initial.xShift);
+    public static Heading left(Heading initial) {
+        return new Heading(initial.yShift * -1, initial.xShift);
     }
 
-    public static RoverOrientation right(RoverOrientation initial) {
-        return new RoverOrientation(initial.yShift, initial.xShift * -1);
+    public static Heading right(Heading initial) {
+        return new Heading(initial.yShift, initial.xShift * -1);
     }
 
     @Override
@@ -40,7 +40,7 @@ public class RoverOrientation {
         {
             return false;
         }
-        final RoverOrientation other = (RoverOrientation) obj;
+        final Heading other = (Heading) obj;
         return Objects.equals(this.xShift, other.xShift) && Objects.equals(this.yShift, other.yShift);
     }
 

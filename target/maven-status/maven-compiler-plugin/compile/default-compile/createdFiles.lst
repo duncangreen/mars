@@ -1,4 +1,4 @@
 com/summitteam/examples/mars/MarsPlateau.class
-com/summitteam/examples/mars/RoverOrientation.class
+com/summitteam/examples/mars/Heading.class
 com/summitteam/examples/mars/PlateauCoordinate.class
 com/summitteam/examples/mars/MarsRover.class

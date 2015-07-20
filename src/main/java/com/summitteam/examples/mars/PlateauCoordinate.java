@@ -35,7 +35,7 @@ public class PlateauCoordinate {
         return String.format("(%d, %d)", x, y);
     }
 
-    public PlateauCoordinate neighbour(RoverOrientation direction) {
+    public PlateauCoordinate neighbour(Heading direction) {
         return new PlateauCoordinate(x + direction.getXshift(), y + direction.getYshift());
     }
 
