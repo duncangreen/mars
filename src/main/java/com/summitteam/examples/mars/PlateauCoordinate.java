@@ -24,4 +24,9 @@ public class PlateauCoordinate {
         final PlateauCoordinate other = (PlateauCoordinate) obj;
         return Objects.equals(this.x, other.x) && Objects.equals(this.y, other.y);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
+    }
 }

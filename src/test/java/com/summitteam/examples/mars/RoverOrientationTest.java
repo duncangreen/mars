@@ -21,4 +21,14 @@ public class RoverOrientationTest {
         assertThat(RoverOrientation.right(RoverOrientation.SOUTH)).isEqualTo(RoverOrientation.EAST);
         assertThat(RoverOrientation.right(RoverOrientation.EAST)).isEqualTo(RoverOrientation.NORTH);
     }
+
+    @Test
+    public void eEquality() {
+        assertThat(RoverOrientation.NORTH).isEqualTo(RoverOrientation.NORTH);
+    }
+
+    @Test
+    public void inequality() {
+        assertThat(RoverOrientation.NORTH).isNotEqualTo(RoverOrientation.SOUTH);
+    }
 }

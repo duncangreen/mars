@@ -36,6 +36,5 @@ public class MarsRoverTest {
 
         assertThat(rover.getPosition()).isEqualTo(initialPosition);
         assertThat(rover.getOrientation()).isEqualTo(RoverOrientation.WEST);
-
     }
 }
