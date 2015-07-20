@@ -29,6 +29,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="51C58470C51A666D4402716B5B33133C" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
