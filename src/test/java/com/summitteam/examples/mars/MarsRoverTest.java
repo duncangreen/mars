@@ -26,4 +26,16 @@ public class MarsRoverTest {
         assertThat(rover.getPosition()).isEqualTo(initialPosition);
         assertThat(rover.getOrientation()).isEqualTo(RoverOrientation.EAST);
     }
+
+    @Test
+    public void spinRight() {
+        PlateauCoordinate initialPosition = new PlateauCoordinate(1, 1);
+        MarsRover rover = new MarsRover(new MarsPlateau(new PlateauCoordinate(5, 5)), initialPosition, RoverOrientation.NORTH);
+
+        rover.spinRight();
+
+        assertThat(rover.getPosition()).isEqualTo(initialPosition);
+        assertThat(rover.getOrientation()).isEqualTo(RoverOrientation.WEST);
+
+    }
 }
